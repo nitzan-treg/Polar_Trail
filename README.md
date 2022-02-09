@@ -1,32 +1,25 @@
-#  Strange Attractor
-This project is based on Entagma's tutorial: https://entagma.com/vex-in-houdini-strange-attractors/
-the tutorial teachs how to create an attractor by following a differtial equation from the site http://3d-meier.de/
+#  Davidoe II
+This project is very much inspired by davidope's art
 
-I found a way to optemize the setup by running the whole simulation inside a single attribute wrangler where each step is run over in a for() loop, this optimization is about 500 times faster and can be developed further to be multithreaded:
+Its an attempt to create a satisfying looping animation in the black & white style of davidope
+I used a falloff and a rotation matrix to control the animation
 
-vector pos = chv('start_pos');
-float dt = chf('accurcy');
-int steps = chi('steps');
+---
 
-float x,y,z,a,b,c,d,e,k,f;
+//get data
+int prims[] = pointprims(0,i@ptnum);
+float falloff = f@falloff;
+matrix xform = ident();
 
-a = 40;
-c = 1.833;
-d = 0.16;
-e = 0.65;
-k = 55;
-f = 20;
+//rotate matix
+vector rnd_axis = normalize(rand(prims[0]+111));
+v@rnd_axis = rnd_axis;
+float rotate_amp = radians(chf('rotate_amount')*falloff);
+rotate(xform,rotate_amp,rnd_axis);
 
-x = pos.x;
-y = pos.y;
-z = pos.z;
+v@P*=xform;
 
-for(int step=0;step<steps;step++){
-    x += (a * (y-x) + d*x*z) * dt;
-    y += (k*x + f*y - x*z) * dt;
-    z += (c*z + x*y - e*x*x) * dt;
-    
-    pos = set(x,y,z);
-    
-    int new_pt = addpoint(0,pos);
-}
+---
+
+<img src="Images/Node Tree.png">
+<p><img alt = "gif" src="2021_10_09_dvdp_II.gif"></code>
