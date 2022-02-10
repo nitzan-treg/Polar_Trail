@@ -1,25 +1,8 @@
-#  Davidoe II
+#  Davidope III
 This project is very much inspired by davidope's art
 
-Its an attempt to create a satisfying looping animation in the black & white style of davidope
-I used a falloff and a rotation matrix to control the animation
+It's an experiment, what happens when you rotate a position vector after you convert it to polar coordinates? obviously, it doesn't make a lot of sense, but the results are beautiful.
 
----
-
-//get data
-int prims[] = pointprims(0,i@ptnum);
-float falloff = f@falloff;
-matrix xform = ident();
-
-//rotate matix
-vector rnd_axis = normalize(rand(prims[0]+111));
-v@rnd_axis = rnd_axis;
-float rotate_amp = radians(chf('rotate_amount')*falloff);
-rotate(xform,rotate_amp,rnd_axis);
-
-v@P*=xform;
-
----
-
+<img src="Deform_VOP.png">
 <img src="Images/Node Tree.png">
-<p><img alt = "gif" src="2021_10_09_dvdp_II.gif"></code>
+<p><img alt = "gif" src="Images/2021_10_12_dvdp_III.gif"></code>
