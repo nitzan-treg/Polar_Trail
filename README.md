@@ -1,8 +1,17 @@
-#  Davidope III
-This project is very much inspired by davidope's art
+#  Polar Trail
+This is an experiment with curves and polar coordinates, I tried to create an interesting animation by animating the U, V or Radius compounents of the Polar Coordinates
 
-It's an experiment, what happens when you rotate a position vector after you convert it to polar coordinates? obviously, it doesn't make a lot of sense, but the results are beautiful.
+<img alt = "gif" src="Images/2021_10_16_polar_trail_1.gif">
+<img alt = "gif" src="Images/2021_10_16_polar_trail_2.gif">
+<img src="Images/2021_10_16_polar_trail.png">
 
-<img src="Deform_VOP.png">
+The curves were created in a for() loop inside Point VOP, in every loop each point would sample a Curl noise, add it to its current position and add a new point in said position.
+
+<img src="Images/Curl_Noise_Trail.png">
+
+Afterward I would normalize the Position attribute, convert it to polar cordiantes, add the world and polar position togerher, while animating the world position. 
+<img src="Images/Polar_Deform.png">
+
+Full Node Tree:
 <img src="Images/Node Tree.png">
-<p><img alt = "gif" src="Images/2021_10_12_dvdp_III.gif"></code>
+
