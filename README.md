@@ -10,8 +10,10 @@ The curves were created in a for() loop inside Point VOP, in every loop each poi
 <img src="Images/Curl_Noise_Trail.png">
 
 Afterward I would normalize the Position attribute, convert it to polar cordiantes, add the world and polar position togerher, while animating the world position. 
+
 <img src="Images/Polar_Deform.png">
 
 Full Node Tree:
+
 <img src="Images/Node Tree.png">
 
