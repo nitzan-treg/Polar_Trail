@@ -1,16 +1,14 @@
 <p align="center">
-   <a href="http://google.com/">
+   <a href="https://github.com/nitzan-treg/community_projects/">
     <img alt="Website" src="https://img.shields.io/website?label=parent%20repo&up_message=Community%20Projects&url=https%3A%2F%2Fgithub.com%2Fnitzan-treg%2Fcommunity_projects">
   </a>
-  <a href="http://google.com/">
+  <a href="https://github.com/nitzan-treg/community_projects/">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nitzan-treg/Polar_Trail">
   </a>
   <a href="https://www.nitzan-tregerman.com/">
     <img alt="Website" src="https://img.shields.io/website?up_message=nitzan-tregerman.com&url=https%3A%2F%2Fwww.nitzan-tregerman.com%2F">
   </a>
-  <a href="http://google.com/">
-    <img alt="GitHub" src="https://img.shields.io/github/license/nitzan-treg/Polar_Trail">
-  </a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/nitzan-treg/Polar_Trail">
 </P>
 
 
