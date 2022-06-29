@@ -36,7 +36,7 @@ Full Node Tree:
 </p> 
 
 <p align="center">
-   You are welcome to explore all of the 
+   You are welcome to explore all of them
    <a href="https://github.com/nitzan-treg/community_projects/">
       here
    </a>
