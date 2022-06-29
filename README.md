@@ -11,12 +11,9 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/nitzan-treg/Polar_Trail">
 </P>
 
-
+I share my personal projects for free with everyone. You are welcome to exlore all of the [here](https://github.com/nitzan-treg/community_projects.git).
 
 #  Polar Trail
-[//]: <> (This is also a comment.):
-//I share my personal projects for free with everyone. You are welcome to exlore all of the [here](https://github.com/nitzan-treg/community_projects.git).
-
 this project is a part of a series of free projects im releasing for free for everyone
 This is an experiment with curves and polar coordinates, I tried to create an interesting animation by animating the U, V, or Radius components of the Polar Coordinates
 
