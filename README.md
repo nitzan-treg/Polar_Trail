@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/nitzan-treg/community_projects/">
-    <img alt="Website" src="https://img.shields.io/website?label=parent%20repo&up_message=Community%20Projects&url=https%3A%2F%2Fgithub.com%2Fnitzan-treg%2Fcommunity_projects">
+    <img alt="Website" src="https://img.shields.io/website?label=main%20project&up_message=Community%20Projects&url=https%3A%2F%2Fgithub.com%2Fnitzan-treg%2Fcommunity_projects">
   </a>
   <a href="https://github.com/nitzan-treg/community_projects/">
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nitzan-treg/Polar_Trail">
@@ -9,9 +9,7 @@
     <img alt="Website" src="https://img.shields.io/website?up_message=nitzan-tregerman.com&url=https%3A%2F%2Fwww.nitzan-tregerman.com%2F">
   </a>
   <img alt="GitHub" src="https://img.shields.io/github/license/nitzan-treg/Polar_Trail">
-</P>
-
-I share my personal projects for free with everyone. You are welcome to exlore all of the [here](https://github.com/nitzan-treg/community_projects.git).
+</p>
 
 #  Polar Trail
 this project is a part of a series of free projects im releasing for free for everyone
@@ -32,3 +30,16 @@ Afterward, I would normalize the Position attribute, convert it to polar coordin
 Full Node Tree:
 
 <img src="Images/Node Tree.png">
+
+<p align="center">
+   I share my personal projects for free with everyone.
+</p> 
+
+<p align="center">
+   You are welcome to exlore all of the 
+   <a href="https://github.com/nitzan-treg/community_projects/">
+      here
+   </a>
+</p> 
+   
+
