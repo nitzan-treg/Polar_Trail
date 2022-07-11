@@ -12,6 +12,9 @@
 </p>
 
 #  Polar Trail
+
+I made a tutorial that teaches how to create this system and how it works, you are welcome to check it on this [link](https://youtu.be/9MPGec7JNyA)
+
 this project is a part of a series of free projects im releasing for free for everyone
 This is an experiment with curves and polar coordinates, I tried to create an interesting animation by animating the U, V, or Radius components of the Polar Coordinates
 
